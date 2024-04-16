@@ -37,7 +37,8 @@ then we are good to go.
     
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Bing map Screenshot](https://github.com/xettrialeen/bing-GoogleMapExtractor/blob/main/bingMapExtractorRunning.png)
+![Google map Screenshot](https://github.com/xettrialeen/bing-GoogleMapExtractor/blob/main/googleMapExtractorRunning.png)
 
 
 ## Ethical Hacking Guideliness
