@@ -1,0 +1,46 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon128.plasmo.3c1ed2d2.png",
+         "16": "icon16.plasmo.6c567d50.png",
+         "32": "icon32.plasmo.76b92899.png",
+         "48": "icon48.plasmo.aced7582.png",
+         "64": "icon64.plasmo.8bb5e6e0.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "author": "BingMapsExport",
+   "background": {
+      "service_worker": "background.93e42914.js"
+   },
+   "content_scripts": [ {
+      "css": [ "leads.cac99bb5.css" ],
+      "js": [ "leads.d3b76e5f.js" ],
+      "matches": [ "https://*.bing.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "host_permissions": [ "https://*.bing.com/*" ],
+   "icons": {
+      "128": "icon128.plasmo.3c1ed2d2.png",
+      "16": "icon16.plasmo.6c567d50.png",
+      "32": "icon32.plasmo.76b92899.png",
+      "48": "icon48.plasmo.aced7582.png",
+      "64": "icon64.plasmo.8bb5e6e0.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo58QwaOtB/T6lueqLnZk6Ix/WTJtVhArktdCypAJICmnIzJiSFrMjkA+7wOtHNsrn3Y8sAmD1xPHBxYMIB/zhECj0T+oax07OBHynY8JShYiCEXCqSXOxnTvxni7DucG2KTDqHtyiTod/V4j1GSHxrkJMCxtrCctsHrDixHuXfUQ9EacWyEoEZEpHHNs1QC/OJtOUABMGPm7/qqiVuJWcP8rk/ZUm7nAxK2RSw2rXOoH5n+QrjHq4j0FlBEsRNlfYJGHD3kvlrtr+C6iQCOLAGiXmsL2W6E08thWnPi2EiC6lQsyuMWGh+1TVTHfBieORhNeiCTUEynlvS96RXJ9pwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extensionName__",
+   "oauth2": {
+      "client_id": "1045436637864-mp9mgaioa4b3lekvskpcp1f0cae9qcvm.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/userinfo.email", "https://www.googleapis.com/auth/userinfo.profile" ]
+   },
+   "permissions": [ "storage", "identity" ],
+
+   "version": "12.5.10",
+   "web_accessible_resources": [ {
+      "matches": [ "https://*.bing.com/*" ],
+      "resources": [ "leads.39b14202.css", "leads.82a6988f.css", "leads.3195bc2f.png", "leads.f3fb0fd7.png", "leads.81ab7c01.jpg", "leads.4f389fc0.png" ]
+   } ]
+}
